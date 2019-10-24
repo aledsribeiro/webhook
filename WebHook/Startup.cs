@@ -31,7 +31,7 @@ namespace WebHook
             }
 
             app.UseRouting();
-            app.UseMvc().UseMvcWithDefaultRoute();
+            
 
             app.UseEndpoints(endpoints =>
             {
